@@ -1,0 +1,424 @@
+1 MSZoning: Identifies the general zoning classification of the sale.
+		
+       A	Agriculture
+       C	Commercial
+       FV	Floating Village Residential
+       I	Industrial
+       RH	Residential High Density
+       RL	Residential Low Density
+       RP	Residential Low Density Park 
+       RM	Residential Medium Density
+	
+2 LotFrontage: Linear feet of street connected to property
+
+3 LotArea: Lot size in square feet
+
+4 Street: Type of road access to property
+
+       Grvl	Gravel	
+       Pave	Paved
+       	
+5 Alley: Type of alley access to property
+
+       Grvl	Gravel
+       Pave	Paved
+       NA 	No alley access
+		
+6 LotShape: General shape of property
+
+       Reg	Regular	
+       IR1	Slightly irregular
+       IR2	Moderately Irregular
+       IR3	Irregular
+       
+7 LandContour: Flatness of the property
+
+       Lvl	Near Flat/Level	
+       Bnk	Banked - Quick and significant rise from street grade to building
+       HLS	Hillside - Significant slope from side to side
+       Low	Depression
+		
+8 Utilities: Type of utilities available
+		
+       AllPub	All public Utilities (E,G,W,& S)	
+       NoSewr	Electricity, Gas, and Water (Septic Tank)
+       NoSeWa	Electricity and Gas Only
+       ELO	Electricity only	
+	
+9 LotConfig: Lot configuration===>layout, shape, and size of a plot of land on which a building be constructed
+
+       Inside	Inside lot
+       Corner	Corner lot
+       CulDSac	Cul-de-sac
+       FR2	Frontage on 2 sides of property
+       FR3	Frontage on 3 sides of property
+	
+10 LandSlope: Slope of property
+		
+       Gtl	Gentle slope
+       Mod	Moderate Slope	
+       Sev	Severe Slope
+	
+11 Neighborhood: neighborhood names represent various physical locations within the city limits of Ames, Iowa
+
+       Bloomington Heights (Blmngtn): A residential neighborhood known for its family-friendly environment and well-maintained homes.
+
+       Bluestem (Blueste):Characterized by newer developments and modern amenities, appealing to young families and professionals.
+
+       Briardale (BrDale):A more established neighborhood with a mix of older and newer homes, offering a suburban feel.
+
+       Brookside (BrkSide):Close to Brookside Park, offering residents easy access to recreational activities and green spaces.
+
+       Clear Creek (ClearCr):Known for its picturesque surroundings and proximity to natural features like creeks and trails.
+
+       College Creek (CollgCr):Popular among students and faculty, located near Iowa State University with convenient access to campus facilities.
+
+       Crawford (Crawfor):A historic neighborhood with charming older homes and a sense of community.
+
+       Edwards (Edwards):Offers a mix of residential and commercial areas, providing diverse living and shopping options.
+
+       Gilbert (Gilbert):A small town feel within the city limits, known for its tight-knit community and local schools.
+
+       Iowa DOT and Rail Road (IDOTRR):Industrial area with a focus on transportation and infrastructure-related businesses.
+
+       Meadow Village (MeadowV):A suburban neighborhood with a variety of housing options and family-friendly amenities.
+
+       Mitchell (Mitchel):Known for its spacious lots and semi-rural atmosphere, offering a quieter living environment.
+
+       North Ames (Names): A residential area with a variety of home styles, close to schools and shopping centers.
+
+       Northridge (NoRidge): Upscale neighborhood with well-maintained homes and proximity to parks and recreational facilities.
+
+       Northpark Villa (NPkVill):Features modern homes and community amenities, popular with young families and retirees.
+
+       Northridge Heights (NridgHt):An extension of Northridge, offering newer homes and upscale living options.
+
+       Northwest Ames (NWAmes):A blend of residential and commercial properties, providing convenient access to various amenities.
+
+       Old Town (OldTown):historic district with charming architecture, close to downtown Ames and its cultural attractions.
+
+       South & West of Iowa State University (SWISU):Primarily student housing and university-related facilities, vibrant with a youthful atmosphere.
+
+       Sawyer (Sawyer):Residential neighborhood with affordable housing options and community parks.
+
+       Sawyer West (SawyerW):Newer development adjacent to Sawyer, offering modern homes and family-friendly amenities.
+
+       Somerset (Somerst):Planned community with a mix of residential and commercial spaces, known for its community-oriented design.
+
+       Stone Brook (StoneBr):A quiet neighborhood with scenic views and access to nature trails and parks.
+
+       Timberland (Timber):Offers larger lots and a rural feel, with an emphasis on privacy and natural surroundings.
+
+       Veenker (Veenker):Named after the Veenker Memorial Golf Course, providing a scenic and recreational living environment.
+			
+12 Condition1: proximity of a property to various conditions or features that can affect its desirability, value, and usability.
+	
+       Artery	Adjacent to arterial street
+       Feedr	Adjacent to feeder street	
+       Norm	Normal	
+       RRNn	Within 200' of North-South Railroad
+       RRAn	Adjacent to North-South Railroad
+       PosN	Near positive off-site feature--park, greenbelt, etc.
+       PosA	Adjacent to postive off-site feature
+       RRNe	Within 200' of East-West Railroad
+       RRAe	Adjacent to East-West Railroad
+	
+13 Condition2: Proximity to various conditions (if more than one is present)
+		
+       Artery	Adjacent to arterial street
+       Feedr	Adjacent to feeder street	
+       Norm	Normal	
+       RRNn	Within 200' of North-South Railroad
+       RRAn	Adjacent to North-South Railroad
+       PosN	Near positive off-site feature--park, greenbelt, etc.
+       PosA	Adjacent to postive off-site feature
+       RRNe	Within 200' of East-West Railroad
+       RRAe	Adjacent to East-West Railroad
+	
+14 BldgType: Types of residential dwellings based on their structure and design. 
+		
+       1Fam	Single-family Detached	
+       2FmCon	Two-family Conversion; originally built as one-family dwelling
+       Duplx	Duplex
+       TwnhsE	Townhouse End Unit
+       TwnhsI	Townhouse Inside Unit
+	
+15 HouseStyle: Style of dwelling
+	
+       1Story	One story
+       1.5Fin	One and one-half story: 2nd level finished
+       1.5Unf	One and one-half story: 2nd level unfinished
+       2Story	Two story
+       2.5Fin	Two and one-half story: 2nd level finished
+       2.5Unf	Two and one-half story: 2nd level unfinished
+       SFoyer	Split Foyer
+       SLvl	Split Level
+	
+16 OverallCond: Rates the overall condition of the house
+
+       10	Very Excellent
+       9	Excellent
+       8	Very Good
+       7	Good
+       6	Above Average	
+       5	Average
+       4	Below Average	
+       3	Fair
+       2	Poor
+       1	Very Poor
+		
+17 YearBuilt: Original construction date
+
+18 YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+
+19 RoofStyle: Type of roof
+
+       Flat	Flat
+       Gable	Gable
+       Gambrel	Gabrel (Barn)
+       Hip	Hip
+       Mansard	Mansard
+       Shed	Shed
+		
+20 RoofMatl: Roof material
+
+       ClyTile	Clay or Tile
+       CompShg	Standard (Composite) Shingle
+       Membran	Membrane
+       Metal	Metal
+       Roll	Roll
+       Tar&Grv	Gravel & Tar
+       WdShake	Wood Shakes
+       WdShngl	Wood Shingles
+		
+21 Exterior1st: Exterior covering on house
+
+       AsbShng	Asbestos Shingles
+       AsphShn	Asphalt Shingles
+       BrkComm	Brick Common
+       BrkFace	Brick Face
+       CBlock	Cinder Block
+       CemntBd	Cement Board
+       HdBoard	Hard Board
+       ImStucc	Imitation Stucco
+       MetalSd	Metal Siding
+       Other	Other
+       Plywood	Plywood
+       PreCast	PreCast	
+       Stone	Stone
+       Stucco	Stucco
+       VinylSd	Vinyl Siding
+       Wd Sdng	Wood Siding
+       WdShing	Wood Shingles
+	
+22 Exterior2nd: Exterior covering on house (if more than one material)
+
+       AsbShng	Asbestos Shingles
+       AsphShn	Asphalt Shingles
+       BrkComm	Brick Common
+       BrkFace	Brick Face
+       CBlock	Cinder Block
+       CemntBd	Cement Board
+       HdBoard	Hard Board
+       ImStucc	Imitation Stucco
+       MetalSd	Metal Siding
+       Other	Other
+       Plywood	Plywood
+       PreCast	PreCast
+       Stone	Stone
+       Stucco	Stucco
+       VinylSd	Vinyl Siding
+       Wd Sdng	Wood Siding
+       WdShing	Wood Shingles
+
+23 ExterQual: Evaluates the quality of the material on the exterior 
+		
+       Ex	Excellent
+       Gd	Good
+       TA	Average/Typical
+       Fa	Fair
+       Po	Poor
+		
+24 ExterCond: Evaluates the present condition of the material on the exterior
+		
+       Ex	Excellent
+       Gd	Good
+       TA	Average/Typical
+       Fa	Fair
+       Po	Poor
+		
+25 Foundation: Type of foundation
+		
+       BrkTil	Brick & Tile
+       CBlock	Cinder Block
+       PConc	Poured Contrete	
+       Slab	Slab
+       Stone	Stone
+       Wood	Wood
+		
+26 BsmtQual: Evaluates the height of the basement
+
+       Ex	Excellent (100+ inches)	
+       Gd	Good (90-99 inches)
+       TA	Typical (80-89 inches)
+       Fa	Fair (70-79 inches)
+       Po	Poor (<70 inches
+       NA	No Basement
+		
+27 BsmtCond: Evaluates the general condition of the basement
+
+       Ex	Excellent
+       Gd	Good
+       TA	Typical - slight dampness allowed
+       Fa	Fair - dampness or some cracking or settling
+       Po	Poor - Severe cracking, settling, or wetness
+       NA	No Basement
+	
+28 BsmtExposure: Refers to walkout or garden level walls
+
+       Gd	Good Exposure
+       Av	Average Exposure (split levels or foyers typically score average or above)	
+       Mn	Mimimum Exposure
+       No	No Exposure
+       NA	No Basement
+
+29 TotalBsmtSF: Total square feet of basement area
+
+30 Heating: Type of heating
+		
+       Floor	Floor Furnace
+       GasA	Gas forced warm air furnace
+       GasW	Gas hot water or steam heat
+       Grav	Gravity furnace	
+       OthW	Hot water or steam heat other than gas
+       Wall	Wall furnace
+		
+31 HeatingQC: Heating quality and condition
+
+       Ex	Excellent
+       Gd	Good
+       TA	Average/Typical
+       Fa	Fair
+       Po	Poor
+		
+32 CentralAir: Central air conditioning
+
+       N	No
+       Y	Yes
+		
+33 Electrical: Electrical system
+
+       SBrkr	Standard Circuit Breakers & Romex
+       FuseA	Fuse Box over 60 AMP and all Romex wiring (Average)	
+       FuseF	60 AMP Fuse Box and mostly Romex wiring (Fair)
+       FuseP	60 AMP Fuse Box and mostly knob & tube wiring (poor)
+       Mix	Mixed
+		
+34 FullBath: Full bathrooms above grade
+
+35 HalfBath: Half baths above grade
+
+36 Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
+
+37 Kitchen: Kitchens above grade
+
+38 KitchenQual: Kitchen quality
+
+       Ex	Excellent
+       Gd	Good
+       TA	Typical/Average
+       Fa	Fair
+       Po	Poor
+       	
+39 TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+	
+40 GarageType: Garage location
+		
+       2Types	More than one type of garage
+       Attchd	Attached to home
+       Basment	Basement Garage
+       BuiltIn	Built-In (Garage part of house - typically has room above garage)
+       CarPort	Car Port
+       Detchd	Detached from home
+       NA	No Garage
+		
+41 GarageYrBlt: Year garage was built
+		
+42 GarageFinish: Interior finish of the garage
+
+       Fin	Finished
+       RFn	Rough Finished	
+       Unf	Unfinished
+       NA	No Garage
+		
+43 GarageCars: Size of garage in car capacity
+
+44 GarageArea: Size of garage in square feet
+
+45 GarageQual: Garage quality
+
+       Ex	Excellent
+       Gd	Good
+       TA	Typical/Average
+       Fa	Fair
+       Po	Poor
+       NA	No Garage
+		
+46 GarageCond: Garage condition
+
+       Ex	Excellent
+       Gd	Good
+       TA	Typical/Average
+       Fa	Fair
+       Po	Poor
+       NA	No Garage
+		
+47 PavedDrive: Paved driveway
+
+       Y	Paved 
+       P	Partial Pavement
+       N	Dirt/Gravel
+				
+48 Fence: Fence quality
+		
+       GdPrv	Good Privacy
+       MnPrv	Minimum Privacy
+       GdWo	Good Wood
+       MnWw	Minimum Wood/Wire
+       NA	No Fence
+	
+49 MiscFeature: Miscellaneous feature not covered in other categories
+		
+       Elev	Elevator
+       Gar2	2nd Garage (if not described in garage section)
+       Othr	Other
+       Shed	Shed (over 100 SF)
+       TenC	Tennis Court
+       NA	None
+	
+
+50 MoSold: Month Sold (MM)
+
+51 YrSold: Year Sold (YYYY)
+
+52 SaleType: Type of sale
+		
+       WD 	Warranty Deed - Conventional
+       CWD	Warranty Deed - Cash
+       VWD	Warranty Deed - VA Loan
+       New	Home just constructed and sold
+       COD	Court Officer Deed/Estate
+       Con	Contract 15% Down payment regular terms
+       ConLw	Contract Low Down payment and low interest
+       ConLI	Contract Low Interest
+       ConLD	Contract Low Down
+       Oth	Other
+		
+53 SaleCondition: Condition of sale
+
+       Normal	Normal Sale
+       Abnorml	Abnormal Sale -  trade, foreclosure, short sale
+       AdjLand	Adjoining Land Purchase
+       Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage 54 unit	
+       Family	Sale between family members
+       Partial	Home was not completed when last assessed (associated with New Homes)
